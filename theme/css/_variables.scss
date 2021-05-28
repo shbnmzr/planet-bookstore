@@ -1,0 +1,31 @@
+@import "./fonts.css";
+
+$colors: (
+  base-color: #01d486,
+  // secondary-color: #2eb7e5,
+  secondary-color: #bd4beb,
+  ternary-color: #f5af53,
+  main-black: #242323,
+  main-white: #ffffff,
+);
+
+$fonts: (
+  main-font: "Vazir",
+  english-font: "Roboto",
+  handwritten-font: "Pacifico",
+);
+
+$text-color: (
+  main-text: map-get($colors, main-black),
+  base-text: map-get($colors, base-color),
+  secondary-text: map-get($colors, secondary-color),
+  ternary-text: map-get($colors, ternary-color),
+  hover-text: map-get($colors, secondary-color),
+  link-hover-text: map-get($colors, secondary-color),
+);
+
+$border-style: (
+  base-border: 1px solid map-get($colors, base-color),
+  button-border: 1px solid map-get($colors, secondary-color),
+  hover-border: 1px solid map-get($colors, ternary-color),
+);

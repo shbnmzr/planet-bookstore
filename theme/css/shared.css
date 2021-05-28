@@ -1,0 +1,1112 @@
+@import "./fonts.css";
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+:root {
+  --primary-color: #01d486;
+  --secondary-color: #bd4beb;
+  --ternary-color: #f5af53;
+  --on-primary: #ffffff;
+  --on-background: #242323;
+  --background: rgb(255, 255, 255);
+  --footer: #242323;
+  --box-shadow: 0 5px 20px 1px #242323;
+  --background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%2301d486' fill-opacity='0.16'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+[data-theme="dark"] {
+  --primary-color: #8336a1;
+  --secondary-color: #2eb7e5;
+  --ternary-color: #f5af53;
+  --on-primary: #000;
+  --footer: #ffffff;
+  --on-background: rgba(255, 255, 255, 0.9);
+  --background: #242323;
+  --background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%238336a1' fill-opacity='0.23'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+.nav-link,
+.primary-nav-link,
+html
+  body
+  .homepage__herobox__container
+  .herobox__navbar__container
+  .herobox__navbar__items
+  .herobox__navbar__item
+  .herobox__navbar__link,
+html
+  body
+  .navbar__container
+  div
+  .navbar
+  .navbar__items
+  .navbar__item
+  .searchbar__container
+  .searchbar
+  div
+  .search-button,
+html
+  body
+  .navbar__container
+  div
+  .navbar
+  .navbar__items
+  .navbar__item
+  .dropdown__items
+  .dropdown__item
+  .dropdown__link,
+html
+  body
+  .navbar__container
+  div
+  .navbar
+  .navbar__items
+  .navbar__item
+  .navbar__link {
+  font-family: "Vazir";
+  font-weight: bold;
+  font-size: 0.75rem;
+}
+
+.section-title {
+  font-family: "Vazir";
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.column-style,
+html body main .books__container .table__columns {
+  font-family: "Vazir";
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.button-style,
+.primary-link,
+html body footer .footer__items__container .footer__item .footer__contact__link,
+.primary-button,
+html
+  body
+  main
+  .sidebar__container
+  .sidebar
+  .sidebar__items
+  .sidebar__item
+  .sidebar__link,
+.primary-button--cta,
+html
+  body
+  .homepage__herobox__container
+  .herobox__navbar__container
+  .herobox__navbar__items
+  .herobox__navbar__item
+  .herobox__navbar__link--cta,
+html
+  body
+  .navbar__container
+  div
+  .navbar
+  .navbar__items
+  .navbar__item
+  .navbar__link--cta {
+  font-family: "Vazir";
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.book-title {
+  font-family: "Vazir";
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.paragraph-style,
+html body main .form__container form input,
+html body main .form__container form textarea,
+html body main .form__container form label,
+html body main .form__container .success,
+html body main .form__container .error,
+html body main .sidebar__container .sidebar .username,
+html
+  body
+  .navbar__container
+  div
+  .navbar
+  .navbar__items
+  .navbar__item
+  .searchbar__container
+  .searchbar
+  input[type="text"],
+.message,
+.success,
+html body main .form__container .message-success,
+.error,
+html body main .form__container .message-fail {
+  font-family: "Vazir";
+  font-weight: normal;
+  font-size: 1rem;
+}
+
+.paragraph-style-details,
+html body main .books__container .book__details__container .book__details {
+  font-family: "Roboto", "Vazir";
+  font-weight: normal;
+  font-size: 1rem;
+  text-align: center;
+  color: var(--on-background);
+}
+
+.footer-style,
+html body footer .footer__items__container {
+  font-family: "Vazir";
+  font-weight: thin;
+  font-size: 0.7rem;
+  color: var(--on-background);
+}
+
+.brand-style,
+html body .navbar__container div .brand .brand__link .brand__name,
+html body .navbar__container div .brand .brand__link {
+  font-family: "Pacifico";
+  font-weight: normal;
+  font-size: 1.5rem;
+}
+
+.nav-link,
+.primary-nav-link,
+html
+  body
+  .homepage__herobox__container
+  .herobox__navbar__container
+  .herobox__navbar__items
+  .herobox__navbar__item
+  .herobox__navbar__link,
+html
+  body
+  .navbar__container
+  div
+  .navbar
+  .navbar__items
+  .navbar__item
+  .searchbar__container
+  .searchbar
+  div
+  .search-button,
+html
+  body
+  .navbar__container
+  div
+  .navbar
+  .navbar__items
+  .navbar__item
+  .dropdown__items
+  .dropdown__item
+  .dropdown__link,
+html
+  body
+  .navbar__container
+  div
+  .navbar
+  .navbar__items
+  .navbar__item
+  .navbar__link {
+  font-family: "Vazir";
+  font-weight: bold;
+  font-size: 0.75rem;
+}
+
+.section-title {
+  font-family: "Vazir";
+  font-weight: bold;
+  font-size: 2rem;
+  color: var(--on-background);
+}
+
+.column-style,
+html body main .books__container .table__columns {
+  font-family: "Vazir";
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: var(--on-background);
+}
+
+.button-style,
+.primary-link,
+html body footer .footer__items__container .footer__item .footer__contact__link,
+.primary-button,
+html
+  body
+  main
+  .sidebar__container
+  .sidebar
+  .sidebar__items
+  .sidebar__item
+  .sidebar__link,
+.primary-button--cta,
+html
+  body
+  .homepage__herobox__container
+  .herobox__navbar__container
+  .herobox__navbar__items
+  .herobox__navbar__item
+  .herobox__navbar__link--cta,
+html
+  body
+  .navbar__container
+  div
+  .navbar
+  .navbar__items
+  .navbar__item
+  .navbar__link--cta {
+  font-family: "Vazir";
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.book-title {
+  font-family: "Vazir";
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.paragraph-style,
+html body main .form__container form input,
+html body main .form__container form textarea,
+html body main .form__container form label,
+html body main .form__container .success,
+html body main .form__container .error,
+html body main .sidebar__container .sidebar .username,
+html
+  body
+  .navbar__container
+  div
+  .navbar
+  .navbar__items
+  .navbar__item
+  .searchbar__container
+  .searchbar
+  input[type="text"],
+.message,
+.success,
+html body main .form__container .message-success,
+.error,
+html body main .form__container .message-fail {
+  font-family: "Vazir";
+  font-weight: normal;
+  font-size: 1rem;
+}
+
+.paragraph-style-details,
+html body main .books__container .book__details__container .book__details {
+  font-family: "Roboto", "Vazir";
+  font-weight: normal;
+  font-size: 1rem;
+  text-align: center;
+  color: var(--on-background);
+}
+
+.footer-style,
+html body footer .footer__items__container {
+  font-family: "Vazir";
+  font-weight: thin;
+  font-size: 0.7rem;
+}
+
+.brand-style,
+html body .navbar__container div .brand .brand__link .brand__name,
+html body .navbar__container div .brand .brand__link {
+  font-family: "Pacifico";
+  font-weight: normal;
+  font-size: 1.5rem;
+}
+
+.primary-button--cta,
+html
+  body
+  .homepage__herobox__container
+  .herobox__navbar__container
+  .herobox__navbar__items
+  .herobox__navbar__item
+  .herobox__navbar__link--cta,
+html
+  body
+  .navbar__container
+  div
+  .navbar
+  .navbar__items
+  .navbar__item
+  .navbar__link--cta {
+  text-decoration: none;
+  outline: none;
+  padding: 0.5rem 1.5rem;
+  border-radius: 5px;
+  background-color: var(--secondary-color) !important;
+  color: var(--on-background);
+  transition: background-color 0.3s ease-out 0s;
+  box-shadow: inset 0 20px 4px -19px rgba(255, 255, 255, 0.4),
+    0 2px 2px 0 rgba(0, 0, 0, 0.3);
+}
+.primary-button--cta:hover,
+html
+  body
+  .homepage__herobox__container
+  .herobox__navbar__container
+  .herobox__navbar__items
+  .herobox__navbar__item
+  .herobox__navbar__link--cta:hover,
+html
+  body
+  .navbar__container
+  div
+  .navbar
+  .navbar__items
+  .navbar__item
+  .navbar__link--cta:hover,
+.primary-button--cta:active,
+html
+  body
+  .homepage__herobox__container
+  .herobox__navbar__container
+  .herobox__navbar__items
+  .herobox__navbar__item
+  .herobox__navbar__link--cta:active,
+html
+  body
+  .navbar__container
+  div
+  .navbar
+  .navbar__items
+  .navbar__item
+  .navbar__link--cta:active {
+  color: var(--on-background) !important;
+  background-color: var(--ternary-color) !important;
+}
+
+.primary-button,
+html
+  body
+  main
+  .sidebar__container
+  .sidebar
+  .sidebar__items
+  .sidebar__item
+  .sidebar__link {
+  text-decoration: none;
+  outline: none;
+  padding: 0.5rem 1.5rem;
+  border-radius: 5px;
+  background-color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  color: var(--on-background);
+  transition: color 0.3s ease-out 0s, border 0.3s ease-out 0s,
+    background-color 0.3s ease-out 0s;
+  box-shadow: inset 0 20px 4px -19px rgba(255, 255, 255, 0.4),
+    0 2px 2px 0 rgba(0, 0, 0, 0.3);
+}
+.primary-button:hover,
+html
+  body
+  main
+  .sidebar__container
+  .sidebar
+  .sidebar__items
+  .sidebar__item
+  .sidebar__link:hover,
+.primary-button:active,
+html
+  body
+  main
+  .sidebar__container
+  .sidebar
+  .sidebar__items
+  .sidebar__item
+  .sidebar__link:active {
+  color: var(--on-background) !important;
+  background-color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+}
+
+.primary-link,
+html
+  body
+  footer
+  .footer__items__container
+  .footer__item
+  .footer__contact__link {
+  text-decoration: none;
+  color: var(--on-background);
+  transition: color 0.3s ease-out 0s;
+}
+.primary-link:hover,
+html
+  body
+  footer
+  .footer__items__container
+  .footer__item
+  .footer__contact__link:hover,
+.primary-link:active,
+html
+  body
+  footer
+  .footer__items__container
+  .footer__item
+  .footer__contact__link:active {
+  color: var(--primary-color) !important;
+}
+
+.primary-nav-link,
+html
+  body
+  .homepage__herobox__container
+  .herobox__navbar__container
+  .herobox__navbar__items
+  .herobox__navbar__item
+  .herobox__navbar__link,
+html
+  body
+  .navbar__container
+  div
+  .navbar
+  .navbar__items
+  .navbar__item
+  .searchbar__container
+  .searchbar
+  div
+  .search-button,
+html
+  body
+  .navbar__container
+  div
+  .navbar
+  .navbar__items
+  .navbar__item
+  .dropdown__items
+  .dropdown__item
+  .dropdown__link,
+html
+  body
+  .navbar__container
+  div
+  .navbar
+  .navbar__items
+  .navbar__item
+  .navbar__link {
+  text-decoration: none;
+  color: var(--on-background);
+  transition: color 0.3s ease-out 0s, border 0.3s ease-out 0s;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.primary-nav-link:hover,
+html
+  body
+  .homepage__herobox__container
+  .herobox__navbar__container
+  .herobox__navbar__items
+  .herobox__navbar__item
+  .herobox__navbar__link:hover,
+html
+  body
+  .navbar__container
+  div
+  .navbar
+  .navbar__items
+  .navbar__item
+  .searchbar__container
+  .searchbar
+  div
+  .search-button:hover,
+html
+  body
+  .navbar__container
+  div
+  .navbar
+  .navbar__items
+  .navbar__item
+  .dropdown__items
+  .dropdown__item
+  .dropdown__link:hover,
+html
+  body
+  .navbar__container
+  div
+  .navbar
+  .navbar__items
+  .navbar__item
+  .navbar__link:hover,
+.primary-nav-link:active,
+html
+  body
+  .homepage__herobox__container
+  .herobox__navbar__container
+  .herobox__navbar__items
+  .herobox__navbar__item
+  .herobox__navbar__link:active,
+html
+  body
+  .navbar__container
+  div
+  .navbar
+  .navbar__items
+  .navbar__item
+  .searchbar__container
+  .searchbar
+  div
+  .search-button:active,
+html
+  body
+  .navbar__container
+  div
+  .navbar
+  .navbar__items
+  .navbar__item
+  .dropdown__items
+  .dropdown__item
+  .dropdown__link:active,
+html
+  body
+  .navbar__container
+  div
+  .navbar
+  .navbar__items
+  .navbar__item
+  .navbar__link:active {
+  color: var(--secondary-color);
+}
+
+.message,
+.success,
+html body main .form__container .message-success,
+.error,
+html body main .form__container .message-fail {
+  opacity: 0;
+  font-size: 0.75rem;
+}
+
+.error,
+html body main .form__container .message-fail {
+  color: red;
+}
+
+.success,
+html body main .form__container .message-success {
+  color: var(--primary-color);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  direction: rtl;
+}
+html body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+html body .navbar__container {
+  background-color: var(--primary-color);
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+html body .navbar__container div {
+  width: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+html body .navbar__container div .navbar {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+html body .navbar__container div .navbar .navbar__items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  list-style-type: none;
+}
+html body .navbar__container div .navbar .navbar__items .navbar__item {
+  position: relative;
+}
+html
+  body
+  .navbar__container
+  div
+  .navbar
+  .navbar__items
+  .navbar__item
+  .navbar__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+html body .navbar__container div .navbar .navbar__items .navbar__item button i {
+  transform: rotate(0deg);
+  transition: transform 0.3s ease-out;
+}
+html
+  body
+  .navbar__container
+  div
+  .navbar
+  .navbar__items
+  .navbar__item
+  button
+  i.open {
+  transform: rotate(180deg);
+  transition: transform 0.3s ease-out;
+}
+html body .navbar__container div .navbar .navbar__items .navbar__item .show {
+  display: flex !important;
+}
+html
+  body
+  .navbar__container
+  div
+  .navbar
+  .navbar__items
+  .navbar__item
+  .dropdown__items {
+  list-style-type: none;
+  display: none;
+  position: absolute;
+  z-index: 1;
+  background-color: var(--on-primary);
+  border: 1px solid var(--primary-color);
+  flex-direction: column;
+  flex-wrap: wrap;
+  overflow: auto;
+  border-radius: 5px;
+  max-height: 15rem;
+  min-width: 15rem;
+  margin-top: 0.5rem;
+  right: 0;
+}
+html
+  body
+  .navbar__container
+  div
+  .navbar
+  .navbar__items
+  .navbar__item
+  .dropdown__items
+  .dropdown__item {
+  flex: 1 1 auto;
+  padding: 0.5rem 1rem;
+}
+html
+  body
+  .navbar__container
+  div
+  .navbar
+  .navbar__items
+  .navbar__item
+  .searchbar__container {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  border-radius: 5px;
+  margin-top: 0.5rem;
+  left: 100%;
+}
+html
+  body
+  .navbar__container
+  div
+  .navbar
+  .navbar__items
+  .navbar__item
+  .searchbar__container
+  .searchbar {
+  display: flex;
+  position: relative;
+}
+html
+  body
+  .navbar__container
+  div
+  .navbar
+  .navbar__items
+  .navbar__item
+  .searchbar__container
+  .searchbar
+  div {
+  position: absolute;
+  top: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+}
+html
+  body
+  .navbar__container
+  div
+  .navbar
+  .navbar__items
+  .navbar__item
+  .searchbar__container
+  .searchbar
+  div
+  .search-button {
+  padding-right: 0.5rem;
+  color: #242323;
+}
+html
+  body
+  .navbar__container
+  div
+  .navbar
+  .navbar__items
+  .navbar__item
+  .searchbar__container
+  .searchbar
+  input[type="text"] {
+  height: 2.5rem;
+  padding: 0.75rem 0.5rem;
+  padding-right: 3rem;
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+}
+html
+  body
+  .navbar__container
+  div
+  .navbar
+  .navbar__items
+  .navbar__item
+  .searchbar__container
+  .searchbar
+  input[type="text"]:focus {
+  outline: none;
+}
+html
+  body
+  .navbar__container
+  div
+  .navbar
+  .navbar__items
+  .navbar__item
+  .navbar__link--cta {
+  border: none !important;
+}
+html body .navbar__container div .brand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+html body .navbar__container div .brand .brand__link {
+  text-decoration: none;
+  color: var(--on-background);
+}
+html body .navbar__container div .navbar__user {
+  width: 30%;
+}
+html body .homepage__herobox__container {
+  height: 83.5vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0;
+  background-color: var(--background);
+}
+html body .homepage__herobox__container .herobox__navbar__container {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+html
+  body
+  .homepage__herobox__container
+  .herobox__navbar__container
+  .herobox__navbar__items {
+  list-style: none;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+html
+  body
+  .homepage__herobox__container
+  .herobox__navbar__container
+  .herobox__navbar__items
+  .herobox__navbar__item
+  .herobox__navbar__link {
+  font-size: 2rem;
+}
+html body .homepage__herobox__container .homepage__herobox__illustration {
+  height: 100%;
+  width: 60%;
+}
+html body .homepage__herobox__container .homepage__herobox__illustration img {
+  width: 100%;
+  height: 100%;
+}
+html body main {
+  background-color: var(--on-primary);
+  background-image: var(--background-image);
+  width: 100%;
+  height: 100%;
+  flex: 1 1 auto;
+  display: flex;
+  padding: 5rem 5rem;
+  align-items: flex-start;
+  justify-content: center;
+}
+html body main .sidebar__container {
+  width: 20vw;
+  display: flex;
+  align-items: center;
+  background-color: var(--on-primary);
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+  padding: 1rem 0.5rem;
+  margin-left: 0.5rem;
+  height: 20rem;
+}
+html body main .sidebar__container .sidebar {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  height: 100%;
+  width: 100%;
+}
+html body main .sidebar__container .sidebar .username {
+  margin-bottom: 3rem;
+  color: var(--on-background);
+}
+html body main .sidebar__container .sidebar .sidebar__items {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 100%;
+  list-style: none;
+}
+html body main .sidebar__container .sidebar .sidebar__items .sidebar__item {
+  flex: 1 1 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0.5rem 0;
+}
+html
+  body
+  main
+  .sidebar__container
+  .sidebar
+  .sidebar__items
+  .sidebar__item
+  .sidebar__link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+}
+html body main .books__container {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+html body main .books__container .table__columns {
+  background-color: var(--primary-color);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 100%;
+  width: 100%;
+  list-style: none;
+  align-items: center;
+  justify-items: center;
+  border-radius: 5px;
+  margin-top: 2rem;
+}
+html body main .books__container .table__columns .table__column {
+  margin: 1rem 0;
+}
+html body main .books__container .book__details__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 100%;
+  width: 100%;
+  list-style: none;
+  align-items: center;
+  justify-items: center;
+  margin: 1.5rem 0;
+}
+html body main .form__container {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+html body main .form__container .error,
+html body main .form__container .message-fail {
+  display: none;
+  font-size: 0.75rem;
+}
+html body main .form__container .success,
+html body main .form__container .message-success {
+  display: none;
+  font-size: 0.75rem;
+}
+html body main .form__container form {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  padding-top: 2rem;
+  color: var(--on-background);
+}
+html body main .form__container form input,
+html body main .form__container form textarea {
+  height: 2.5rem;
+  width: 100%;
+  padding: 0.75rem 0.5rem;
+  margin-bottom: 1rem;
+  margin-top: 0.25rem;
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+}
+html body main .form__container form input:focus,
+html body main .form__container form textarea:focus {
+  outline: none;
+}
+html body main .form__container form textarea {
+  height: 10rem;
+  resize: none;
+}
+html body main .form__container form div {
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+  justify-content: space-around;
+  position: relative;
+}
+html body main .form__container form div input {
+  width: 40%;
+  padding: 0 1rem;
+  cursor: pointer;
+  border: none;
+}
+html body footer {
+  display: flex;
+  direction: ltr;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 0.75rem 0;
+  background-color: var(--footer);
+}
+html body footer .footer__items__container {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  justify-content: center;
+}
+html body footer .footer__items__container .footer__item {
+  display: flex;
+  align-items: baseline;
+  color: var(--on-primary);
+}
+html
+  body
+  footer
+  .footer__items__container
+  .footer__item
+  .footer__contact__link {
+  padding-left: 0.2rem;
+  font-size: 0.7rem;
+  color: var(--on-primary);
+}
+
+.theme-switch-wrapper {
+  display: flex;
+  width: auto !important;
+  align-items: center;
+  z-index: 100;
+  position: absolute;
+  right: 0;
+  top: 1.2rem;
+}
+
+.theme-switch-wrapper span {
+  margin-right: 10px;
+  font-size: 1rem;
+}
+
+.theme-switch {
+  display: inline-block;
+  height: 20px;
+  position: relative;
+  width: 40px;
+}
+
+.theme-switch input {
+  display: none;
+}
+
+.slider {
+  background: var(--secondary-color);
+  bottom: 0;
+  cursor: pointer;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: 0.4s;
+}
+
+.slider::before {
+  background: #fff;
+  bottom: 3px;
+  content: "";
+  height: 15px;
+  left: 4px;
+  position: absolute;
+  transition: 0.4s;
+  width: 15px;
+}
+
+input:checked + .slider::before {
+  transform: translateX(12px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round::before {
+  border-radius: 50%;
+}
+
+/*# sourceMappingURL=shared.css.map */

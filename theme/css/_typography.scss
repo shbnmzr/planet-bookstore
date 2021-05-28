@@ -1,0 +1,57 @@
+@import "./variables";
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+.nav-link {
+  font-family: map-get($fonts, main-font);
+  font-weight: bold;
+  font-size: 0.75rem;
+}
+
+.section-title {
+  font-family: map-get($fonts, main-font);
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.column-style {
+  font-family: map-get($fonts, main-font);
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.button-style {
+  font-family: map-get($fonts, main-font);
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.book-title {
+  font-family: map-get($fonts, main-font);
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.paragraph-style {
+  font-family: map-get($fonts, main-font);
+  font-weight: normal;
+  font-size: 1rem;
+}
+
+.paragraph-style-details {
+  font-family: map-get($fonts, english-font), map-get($fonts, main-font);
+  font-weight: normal;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.footer-style {
+  font-family: map-get($fonts, main-font);
+  font-weight: thin;
+  font-size: 0.7rem;
+}
+
+.brand-style {
+  font-family: map-get($fonts, handwritten-font);
+  font-weight: normal;
+  font-size: 1.5rem;
+}

@@ -1,0 +1,82 @@
+@import "./typography";
+@import "./variables";
+
+.primary-button--cta {
+  @extend .button-style;
+  text-decoration: none;
+  outline: none;
+  padding: 0.5rem 1.5rem;
+  border-radius: 5px;
+  background-color: map-get($colors, secondary-color) !important;
+  color: map-get($text-color, main-text);
+  transition: background-color 0.3s ease-out 0s;
+  box-shadow: inset 0 20px 4px -19px rgba(255, 255, 255, 0.4),
+    0 2px 2px 0 rgba(0, 0, 0, 0.3);
+  &:hover,
+  &:active {
+    color: map-get($text-color, main-text) !important;
+    background-color: map-get($colors, ternary-color) !important;
+  }
+}
+
+.primary-button {
+  @extend .button-style;
+  text-decoration: none;
+  outline: none;
+  padding: 0.5rem 1.5rem;
+  border-radius: 5px;
+  background-color: map-get($colors, base-color);
+  border: map-get($border-style, base-border);
+  color: map-get($text-color, main-text);
+  transition: color 0.3s ease-out 0s, border 0.3s ease-out 0s,
+    background-color 0.3s ease-out 0s;
+  box-shadow: inset 0 20px 4px -19px rgba(255, 255, 255, 0.4),
+    0 2px 2px 0 rgba(0, 0, 0, 0.3);
+  &:hover,
+  &:active {
+    color: map-get($text-color, main-text) !important;
+    background-color: map-get($colors, secondary-color);
+    border: map-get($border-style, button-border);
+  }
+}
+
+.primary-link {
+  @extend .button-style;
+  text-decoration: none;
+  color: map-get($text-color, main-text);
+  transition: color 0.3s ease-out 0s;
+  &:hover,
+  &:active {
+    color: map-get($text-color, base-text) !important;
+  }
+}
+
+.primary-nav-link {
+  @extend .nav-link;
+  text-decoration: none;
+  color: map-get($text-color, main-text);
+  transition: color 0.3s ease-out 0s, border 0.3s ease-out 0s;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  &:hover,
+  &:active {
+    color: map-get($text-color, secondary-text);
+  }
+}
+
+.message {
+  @extend .paragraph-style;
+  opacity: 0;
+  font-size: 0.75rem;
+}
+.error-message {
+  @extend .message;
+  color: red;
+}
+
+.success-message {
+  @extend .message;
+  color: map-get($colors, base-color);
+}

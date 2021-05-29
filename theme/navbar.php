@@ -91,4 +91,5 @@ $sql = "SELECT Title, CategoryID FROM Category Order By Title";
 		</ul>
 		
 	</nav>
+	
 </div>

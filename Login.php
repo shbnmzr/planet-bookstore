@@ -27,4 +27,6 @@ if( isset($_SESSION['loggedin'])) header("Location: panel/");
 	
 </main>
 
+
+
 <?php include "theme/footer.php"; ?>

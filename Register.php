@@ -4,6 +4,7 @@ if(strlen(session_id()) < 1) session_start();
 if( isset($_SESSION['loggedin']) ){
 	if($_SESSION['loggedin']) header("Location: panel/");
 }
+$_POST = array();
 ?>
 <main>
 	<div class="form__container">
